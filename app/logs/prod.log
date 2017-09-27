@@ -1,0 +1,5 @@
+[2017-09-25 18:56:22] request.INFO: Matched route "api_translation_value_reset". {"route_parameters":{"_controller":"prestashop.core.api.translation.controller:translationResetAction","_route":"api_translation_value_reset"},"request_uri":"http://localhost/malle/admin880d8bmzo/index.php/api/translation/reset?_token=Llfp2_udC6DpaDrBVoDTnLOBrkskcoC9_GR0j6XoVYI"} []
+[2017-09-25 18:56:22] security.DEBUG: Read existing security token from the session. {"key":"_security_main"} []
+[2017-09-25 18:56:22] security.DEBUG: User was reloaded from a user provider. {"username":"richardyoann@me.com","provider":"PrestaShopBundle\\Security\\Admin\\EmployeeProvider"} []
+[2017-09-25 18:56:22] app.ERROR: EntityManager#remove() expects parameter 1 to be an entity object, NULL given. [] []
+[2017-09-25 18:56:27] security.DEBUG: Stored the security token in the session. {"key":"_security_main"} []
