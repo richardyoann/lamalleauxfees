@@ -36,7 +36,10 @@
       {block name='sort_by'}
         {include file='catalog/_partials/sort-orders.tpl' sort_orders=$listing.sort_orders}
       {/block}
-
+      <!--YRI  GRID LIST SWITCHER-->
+      <i class="material-icons show_list">&#xE8EF;</i>
+      <i class="material-icons show_grid">&#xE8F0;</i>
+      <!-- -->
       {if !empty($listing.rendered_facets)}
         <div class="col-sm-3 col-xs-4 hidden-md-up filter-button">
           <button id="search_filter_toggler" class="btn btn-secondary">

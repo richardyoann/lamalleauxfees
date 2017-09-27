@@ -10,7 +10,7 @@
         background-repeat: no-repeat;  
     }
  }
-
+/**/
 /*YRI Ajout des sous-categorie dans categorie*/
 #subcategories ul li {
   float: left;
@@ -20,5 +20,27 @@
 }
 #subcategories ul li img {
   margin-bottom: 10px;
-}
+}/**/
 
+/*YRI  GRID LIST SWITCHER*/
+.show_list, .show_grid {
+    cursor:pointer;
+    opacity:1.0;
+}
+ 
+.show_list:hover, .show_grid:hover {
+    opacity:0.7;
+}
+ 
+.product_show_list {
+    width:100%;
+}
+ 
+.product_show_list .highlighted-informations, .product_show_list .product-description, .product_show_list .thumbnail-container {
+    width:100%!important;
+}
+ 
+.product_show_list .product-thumbnail {
+    text-align:center;
+}
+/**/
