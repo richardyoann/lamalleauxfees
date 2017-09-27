@@ -1,0 +1,24 @@
+/*YRI Ajout image arriere plan 
+      listeré au tour du container*/
+ @media (min-width:1024px){
+    #wrapper .container{
+        background : #fff;
+        padding-top: 20px;}
+    #wrapper {
+        background: url(../img/bg.png);
+        background-position: top center;
+        background-repeat: no-repeat;  
+    }
+ }
+
+/*YRI Ajout des sous-categorie dans categorie*/
+#subcategories ul li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding-top: 20px;
+}
+#subcategories ul li img {
+  margin-bottom: 10px;
+}
+
